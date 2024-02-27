@@ -72,5 +72,5 @@ protected:
 	AActor* PullActor = nullptr;
 
 	UPROPERTY(EditAnywhere, Category="Effect")
-	EEffectType EffectType = EEffectType::None;
+	EEffectType EffectType = EEffectType::Speed;
 };
